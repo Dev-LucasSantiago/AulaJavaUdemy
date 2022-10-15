@@ -43,7 +43,14 @@ public class AulaString {
 
         System.out.println("Nome: "+nome+"\nSobrenome: "+sobrenome+"\nIdade: "+idade+"\nSalario: "+salario+"\n\n");
 
-        PrintStream printf = System.out.printf("Nome Completo: %s %s", nome, sobrenome);
+        System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f.", nome, sobrenome,idade, salario);
 
+        String frase = String.format("\nO senhor %s %s tem %d anos e ganha R$%.2f.", nome, sobrenome,idade, salario);
+        System.out.println(frase);
+
+
+        System.out.println("Frase Qualquer".contains("Qual"));
+        System.out.println("Frase Qualquer".contains("quer"));
+        System.out.println("Frase Qualquer".substring(6, 10));
     }
 }
