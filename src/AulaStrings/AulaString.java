@@ -52,5 +52,6 @@ public class AulaString {
         System.out.println("Frase Qualquer".contains("Qual"));
         System.out.println("Frase Qualquer".contains("quer"));
         System.out.println("Frase Qualquer".substring(6, 10));
+
     }
 }
