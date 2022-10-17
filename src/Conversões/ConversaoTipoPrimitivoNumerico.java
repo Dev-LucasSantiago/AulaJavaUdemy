@@ -3,8 +3,10 @@ package Conversões;
 public class ConversaoTipoPrimitivoNumerico {
     public static void main(String[] args) {
         //Conversão Implícita é quando um numero menor cabe numa variável maior ex: Int para Double
-        //Conversão Explícita é quando um numero maior terá que caver numa variável de tipo menor ex: Double para Int
-        double a = 1;       //Conversão Implícita
+
+        //Conversão Explícita é quando um numero maior terá que caber numa variável de tipo menor EX: Double para Int
+
+        double a = 1;        //Conversão Implícita
         System.out.println(a);
 
         float b = (float)1.12345; //Conversão Explícita (CAST)
