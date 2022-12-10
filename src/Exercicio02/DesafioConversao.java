@@ -1,6 +1,5 @@
-package Exercicios02;
+package Exercicio02;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class DesafioConversao {

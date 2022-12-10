@@ -1,4 +1,4 @@
-package Operadores;
+package Exercicio03;
 
 public class DesafioAritimeticos {
 

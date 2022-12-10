@@ -1,4 +1,4 @@
-package Exercicios01;
+package Exercicio01;
 
 public class AreaCircuferencia {
     public static void main(String[] args) {
