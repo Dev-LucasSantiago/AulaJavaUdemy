@@ -6,18 +6,23 @@ public class DesafioWhile {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
+        int qtdNotas = 0;
         double nota = 0;
-        double media = 0;
+        double total = 0;
 
         while (!(nota == -1)){
-            if (nota >= 0 && nota <= 10){
-                System.out.print("Digite a sua nota: ");
-                nota = leitor.nextDouble();
+            System.out.print("Digite a sua nota: ");
+            nota = leitor.nextDouble();
 
+            if (nota >= 0 && nota <= 10) {
+                total += nota;
+                qtdNotas++;
+            } else if (nota != -1) {
+                System.out.println("Digite uma nota válida!");
             }
-            media = nota++;
-            System.out.println(media);
         }
-        System.out.println(media);
+        double media = total/qtdNotas;
+        System.out.println("A média dos alunos é: "+media);
+        leitor.close();
     }
 }
