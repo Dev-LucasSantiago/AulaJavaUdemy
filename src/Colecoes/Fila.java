@@ -11,7 +11,7 @@ public class Fila {
         //  A diferença é o comportamento ocorre
         //  Quando a fila está cheia!
         fila.add("Ana"); // Retorna False
-        fila.offer("Bia");// Lança uma excepion
+        fila.offer("Bia");// Lança uma exception
         fila.add("Lucas");
         fila.offer("Carlos");
         fila.add("Jean");
@@ -25,7 +25,7 @@ public class Fila {
         //  Quando a fila está vazia!
         System.out.println(fila.peek());    //Retorna Null
         System.out.println(fila.peek());
-        System.out.println(fila.element()); //Lança uma Excepion
+        System.out.println(fila.element()); //Lança uma Exception
         System.out.println(fila.element());
 
         //fila.size(); Tamanho da fila
@@ -37,7 +37,7 @@ public class Fila {
         //  A diferença é o comportamento ocorre
         //  Quando a fila está vazia!
         System.out.println(fila.poll());//  Retorna Null
-        System.out.println(fila.remove());//Lança uma Excepion
+        System.out.println(fila.remove());//Lança uma Exception
         System.out.println(fila.poll());
         System.out.println(fila.poll());
         System.out.println(fila.poll());
